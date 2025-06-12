@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ page.title | default: "Mi Web" }}</title>
+</head>
+<body>
+    <div class="topnav">
+      <a href="/iclude/1.html">Primera pagina</a>
+      <a href="/iclude/2.html">Segunda Pagina</a>
+      <a href="/iclude/3.html">Tercera pagina</a>
+      <a href="/iclude/4.html">Cuarta pagina</a>
+    </div>
+    <div class="main">
+        {{ content }}
+    </div>
+    <div class="footer">
+        <p>Gabriel Lungu pagina 1 y 2</p>
+    </div>
+</body>
+</html>
