@@ -1,7 +1,6 @@
 ---
 layout: default
-title: Inicio
-css: azul
+title: Primera Pagina
 ---
 
   <h1 id="bienvenido-a-mi-sitio">Bienvenido a mi sitio</h1>
